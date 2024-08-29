@@ -1,0 +1,98 @@
+*{
+    margin: 0; /*saca los bordes de la pantalla*/
+    padding: 0; /*saca los bordes de los objetos*/
+    box-sizing: border-box; /*No deja espacios entre los objetos*/
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #f19ce646;
+    padding: 15px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* header */
+
+/* Input buscar nombre */
+.buscarnombre{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+/* GESTION DE PRODUCTOS */
+
+.gestiodepro{
+    cursor: default;
+}
+/* BUSQUEDA DE PRODUCTOS */
+.buspro{
+    cursor: default;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* TABLA */
+table{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid black;
+}
+
+h3{
+    padding-top: 40px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* MAIN */
+
+/* REGISTRO DE PRODUCTOS */
+
+.registro{
+    cursor: default;
+    margin-bottom: 5px;
+}
+
+
+/* LABELS */
+/*
+ .producto{ 
+   
+}
+
+.descripcion{
+
+}
+
+.precio{
+
+}
+
+.cantidad{
+
+}
+*/
+/* -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER */
+
+/* H2 RESUMEN */
+
+.resumen{
+    margin-top: 8px;
+    cursor: default;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------*/
